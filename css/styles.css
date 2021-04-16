@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -10,15 +11,13 @@ body {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: grey;
+  /* border-color: grey; */
+  border-color:  #4b778d;
   border-width: 5px;
-  width: 2%;
-  margin: 20px auto 20px auto;
+  width: 3%;
+  margin: 40px auto 40px auto;
 }
 
-p {
-  color: #40514E;
-}
 
 h1 {
   /* width: 10%; */
@@ -43,11 +42,19 @@ h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
+p{
+  line-height: 2;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
 
 .top-container {
   background-color: #f7f3e9;
   position: relative;
-  padding-top: 100px;
+  padding: 80px;
 }
 
 .middle-container {
@@ -65,27 +72,35 @@ h3 {
 .skill-row {
   width: 50%;
   margin: 60px auto 80px auto;
-  line-height: 2;
   text-align: left;
 }
 
 .computer-img {
   position: relative;
+  float: left;
   width: 25%;
   margin-right: 40px;
 }
 
-.tennis-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-
 /* .my-other-interests{
   clear: right;
+  width: 50%;
+  margin:60px auto 80px auto;
+  text-align: left;
+
 } */
+
+.tennis-img {
+
+  float: right;
+  width: 17%;
+  margin-right: 40px;
+
+}
+
 .profile-img {
-  padding-top: 20px;
+  margin-bottom: 30px;
+  padding-top: 30px;
   width: 15%;
 }
 
@@ -93,19 +108,43 @@ h3 {
   text-decoration: underline;
 }
 
+.contact-message{
+  width: 40%;
+  margin: 40px auto;
+}
+
 .footer {
   color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  padding: 20px;
 }
+
+.footer-link{
+  margin-right: 25px;
+  color: #798777;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+.footer-link2{
+color: #798777;
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+ }
+
+ a:hover{
+   color:#464f41;
+ }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 200px;
   bottom: 300px;
 }
 
@@ -121,7 +160,7 @@ h3 {
   -moz-border-radius: 20px;
   border-radius: 20px;
   color: #FFFFFF;
-  font-family: Brush Script MT;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 100px;
   padding: 20px;
