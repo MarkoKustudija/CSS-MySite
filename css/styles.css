@@ -82,6 +82,22 @@ p{
   margin-right: 40px;
 }
 
+.book1-img{
+  position: relative;
+  width: 25%;
+  margin: 50px;
+  padding: 20px;
+
+}
+
+.book2-img{
+  position: relative;
+  width: 25%;
+  margin: 50px;
+  padding: 20px;
+
+}
+
 /* .my-other-interests{
   clear: right;
   width: 50%;
@@ -131,6 +147,24 @@ color: #798777;
 font-family: 'Montserrat', sans-serif;
 text-decoration: none;
  }
+
+
+ /* .KnutHamsun-link{
+   color: #798777;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 0.75rem;
+   text-decoration: none;
+ } */
+ /* .Bukovski-link{
+   color: #798777;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 0.75rem;
+   text-decoration: none;
+
+ } */
+
+
+
 
  a:hover{
    color:#464f41;
